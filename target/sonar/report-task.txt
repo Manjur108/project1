@@ -1,0 +1,5 @@
+projectKey=we.com:webapps
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/we.com:webapps
+ceTaskId=AVx8_WzXwLsPtoCreVbH
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVx8_WzXwLsPtoCreVbH
