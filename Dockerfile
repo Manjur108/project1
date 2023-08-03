@@ -1,4 +1,5 @@
-FROM tomcat:alpine
-copy /*.war usr/local/tomcat/webapps/*.war
-EXPOSE 8080
-CMD["catalina.sh", "run"]
+FROM openjdk:11-jre-slim
+WORKDIR /app
+copy target/webapps.war /app/webapps.war
+EXPOSE 8081
+CMD ["java", "-war", "webapps.war"]
